@@ -3,18 +3,50 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
- #root{
-}
+ 
 #maine{
     border-radius: 25px;
     overflow: hidden;
-
 }
+
 #menu{
     background-color: #98175f !important;
 }
 #menu > div > ul > li > a{
-    color: #b86e50;
+    color: #f0c310;
     font-weight: bold;
 }
+
+#control-panel > h3{
+    color: #98175f;
+}
+
+#control-panel > div > div > span{
+    padding: 10px 40px;
+    background-color: #98175f;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#control-panel > div > div > div{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #9a1b68;
+    font-weight: bolder;
+    background-color: #f1c410;  
+}
+
+#control-panel > div > div{
+    padding: 1.5rem 2.5rem;
+}
+
+#control-panel > div > div > div > span{
+    font-size: 1.5rem;
+}
+
+
+
 

@@ -6,68 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/font-face.css">
     <title>Document</title>
 </head>
 <body>
     <div id="root" class="container-fluid vh-100 d-flex p-4">
-        <div id="maine" class=" bg-white w-100 h-100">
-            <div id="menu" class="col-md-3 w-100 h-100 d-flex flex-column">
-                <!-- logo -->
-                <img class="w-75 h-25 pr-5" src="img/icon_7ZKXKM1kC_2019_03_13_06_56_07.jpeg" alt="">
-                <!-- end logo -->
+        <div id="maine" class="d-flex flex-row bg-white w-100 h-100">
+            <div id="menu" class="col-md-2 w-100 h-100 d-flex flex-column">
+            <!-- logo -->
+                <img class="w-100 h-25 pr-3" src="img/icon_7ZKXKM1kC_2019_03_13_06_56_07.jpeg" alt="">
+            <!-- end logo -->
 
-
-                <!-- right menu -->
-                <div class="d-flex mt-5">
+            <!-- right menu -->
+                <div id="right-menu" class="d-flex mt-5">
                     <ul class="nav flex-column p-0">
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-home-50.png" width="20" height="20" alt="">
                             صفحه نخست
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-menu-squared-50.png" width="20" height="20" alt="">
                             منوها
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-unread-messages-50-2.png" width="20" height="20" alt="">
                             پیام ها
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-user-account-50-2.png" width="20" height="20" alt="">
                             کاربران
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-statistics-report-50.png" width="20" height="20" alt="">
                             گزارش ها
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link text-right d-flex align-items-center" href="#">
-                            <img class="ml-2" src="https://www.iconpacks.net/icons/1/free-home-icon-189-thumb.png" width="20" height="20" alt="">
+                            <img class="ml-3" src="img/icons8-gear-50.png" width="20" height="20" alt="">
                             تنظیمات
                             </a>
                         </li>
                     </ul>
                 </div>
-                <!-- end right menu -->
+            <!-- end right menu -->
             </div> 
-               <div id="maine" class="col-md-9 d-flex flex-wrap bg-white"></div>
+         
+        <!-- control panel -->
+            <div id="control-panel" class="col-md-9 bg-white ">
+                <h3 class=" text-right pt-5 pr-5">پنل مدیریت</h3>
+                <div class="d-flex flex-wrap  align-items-center justify-content-between">
+                    <div class="d-flex flex-column align-items-center justify-content-between">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/icons8-business-building-50.png" width="90" height="90" alt="">
+                            <span class="text-center">320.000</span>
+                        </div>
+                        <span class="rounded-pill">تعداد مشتریان</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-between ">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/meetings.png" width="80" height="80" alt="">
+                            <span class="text-center">973.000</span>
+                        </div>
+                        <span class="rounded-pill">تعداد جلسات</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-between pl-0 ">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/request.png" width="80" height="80" alt="">
+                            <span class="text-center">500.000</span>
+                        </div>
+                        <span class="rounded-pill p-2">تعداد درخواست ها</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-between ">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/menu.png" width="80" height="80" alt="">
+                            <span class="text-center">20</span>
+                        </div>
+                        <span class="rounded-pill">تعداد منوها</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-between ">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/Messages.png" width="80" height="80" alt="">
+                            <span class="text-center">10</span class="text-center">
+                        </div>
+                        <span class="rounded-pill">تعداد پیام ها</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-between pl-0">
+                        <div class="d-flex flex-column p-3">
+                            <img src="img/user.png" width="80" height="80" alt="">
+                            <span class="text-center">3</span>
+                        </div>
+                        <span class="rounded-pill">تعداد کاربران</span>
+                    </div>
+                </div>
+            </div>
+        <!-- end control panel -->
         </div>
     </div>
-
-
-
-
-
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
