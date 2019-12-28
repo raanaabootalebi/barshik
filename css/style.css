@@ -46,6 +46,40 @@ body{
 #control-panel > div > div > div > span{
     font-size: 1.5rem;
 }
+#control-panel > div{
+    margin-top: 10rem;
+}
+
+#control-panel > div > div:nth-child(4){
+    margin-top: 8rem;
+}
+#control-panel > div > div:nth-child(5){
+    margin-top: 8rem;
+}
+#control-panel > div > div:nth-child(6){
+    margin-top: 8rem;
+}
+
+#control-panel > div > div:nth-child(1) > div{
+    top: 16%;
+}
+
+#control-panel > div > div:nth-child(2) > div{
+    top: 16%;
+}
+
+#control-panel > div > div:nth-child(3) > div{
+    top: 16%;
+}
+#control-panel > div > div:nth-child(4) > div{
+    top: 54%;
+}
+#control-panel > div > div:nth-child(5) > div{
+    top: 54%;
+}
+#control-panel > div > div:nth-child(6) > div{
+    top: 54%;
+}
 
 
 
